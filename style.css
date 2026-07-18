@@ -363,31 +363,21 @@ transform:translateY(0);
 /* ===== MOVIL ===== */
 
 
-@media(max-width:768px){
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 3rem;
+        line-height: 1.1;
+    }
 
+    .hero-content p {
+        font-size: 1.3rem;
+    }
 
-.hero h1{
-
-font-size:40px;
-
+    .hero video {
+        object-position: center 20%;
+    }
 }
 
-
-nav ul{
-
-display:none;
-
-}
-
-
-section h2{
-
-font-size:35px;
-
-}
-
-
-}
 /* ===== LOADER ===== */
 
 
